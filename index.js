@@ -73,7 +73,7 @@ inquirer
     {
         type: 'input',
         name: 'credits',
-        message: 'Please list any collaborators with links to their GitHub profiles.'
+        message: 'Please list any collaborators of your project.'
     },
     {
         type: 'input',

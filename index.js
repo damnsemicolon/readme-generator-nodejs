@@ -80,9 +80,6 @@ inquirer
         name: 'tests', 
         message: 'Please provide instructions on how to run tests.'
     },
-    
-
-    
 ]).then(data => {
     console.log(data);
     const markdown = `

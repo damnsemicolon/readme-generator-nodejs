@@ -3,7 +3,7 @@
 
 ## Description
 
-This README Generator will take user inputs and generate a readme from the data
+This README Generator will ask for user's input for different parts of a README file, and uses the input data to autogenerate a pre-formatted README.
 
 ## Table of Contents
 
@@ -18,15 +18,15 @@ This README Generator will take user inputs and generate a readme from the data
 
 You'll need the below installed in order for the README Generator to work:
 
-Chrome Browser,Visual Code Studio,Node.js,Git,Gitlab
+Chrome Browser,Visual Code Studio,Node.js
 
 ## Usage
 
-Download the repository to your local machine and open file in terminal
+Install inquirer at version 8.0.0 in the repository directory with 'npm i inquirer @^8.0.0' in the terminal
 
 ## Credits
 
-Myself
+Myself.
 
 ## License
 
@@ -54,4 +54,4 @@ undefined
 ## Questions?
 - Project owner: Shannon Yap
 - GitHub: [damnsemicolon](https://github.com/damnsemicolon)
-- Email: shannoninenglang@gmail.com
+- Email: shannoninengland@gmail.com

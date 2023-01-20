@@ -34,7 +34,7 @@ Screenshot of deployed application:
 ![screenshots](assets/screenshot.png)
 
 Video Demonstration of the deployed application:
-[Youtube Link]{https://youtu.be/3GfXz2HAhM8}
+[Youtube Link](https://youtu.be/3GfXz2HAhM8)
 
 ## Credits
 

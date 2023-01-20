@@ -49,7 +49,9 @@ If you would like to contribute to this project, you can follow the steps below:
 
 ## Tests
 
-undefined
+Run the command below in the terminal and follow the prompts:
+
+'node index.js'
 
 ## Questions?
 - Project owner: Shannon Yap

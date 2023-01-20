@@ -1,8 +1,9 @@
-# ${data.projectName}
+
+# README Generator
 
 ## Description
 
-${data.projectDescription}
+This README Generator will take user inputs and generate a readme from the data
 
 ## Table of Contents
 
@@ -15,21 +16,21 @@ ${data.projectDescription}
 
 ## Installation
 
-You'll need the below installed in order for the ${data.projectName} to work:
+You'll need the below installed in order for the README Generator to work:
 
-${data.installation}
+Chrome Browser,Visual Code Studio,Node.js,Git,Gitlab
 
 ## Usage
 
-${data.usage}
+Download the repository to your local machine and open file in terminal
 
 ## Credits
 
-${data.credits}
+Myself
 
 ## License
 
-This application is covered by the ${data.license}.
+This application is covered by the MIT License.
 
 ---
 
@@ -48,9 +49,9 @@ If you would like to contribute to this project, you can follow the steps below:
 
 ## Tests
 
-${data.test}
+undefined
 
 ## Questions?
-- Project owner: ${data.name}
-- GitHub: [${data.github}](https://github.com/${data.github})
-- Email: ${data.email}
+- Project owner: Shannon Yap
+- GitHub: [damnsemicolon](https://github.com/damnsemicolon)
+- Email: shannoninenglang@gmail.com

@@ -53,8 +53,35 @@ inquirer
     {
         type: 'checkbox',
         name: 'installation',
-        message: 'What '
-    }
+        message: 'What needs to be installed to run your project?',
+        choices: [
+            'Chrome Browser',
+            'Visual Code Studio',
+            'Node.js',
+            'Express.js',
+            'MongoDB',
+            'MySQL',
+            'Git',
+            'Gitlab'
+        ]
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Please provide instructions of how to use your project.'
+    },
+    {
+        type: 'input',
+        name: 'credits',
+        message: 'Please list any collaborators with links to their GitHub profiles.'
+    },
+    {
+        type: 'input',
+        name: 'tests', 
+        message: 'Please provide instructions on how to run tests.'
+    },
+    
+
     
 ]).then(data => {
     console.log(data);
@@ -63,18 +90,57 @@ inquirer
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+${data.projectDescription}
 
-## Getting Started
+## Table of Contents
 
-### Installing
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-* 
+## Installation
+
+You'll need the below installed in order for the ${data.projectName} to work:
+
+${data.installation}
+
+## Usage
+
+${data.usage}
+
+## Credits
+
+${data.credits}
+
+## License
+
+This application is covered by the ${data.license}.
+
+---
+
+## Badges
+
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+
+## How to Contribute
+
+If you would like to contribute to this project, you can follow the steps below:
+1. **Create** a personal fork of the project on Github.
+2. **Clone** the fork on your local machine.
+3. **Commit** the changes to your own branch.
+4. **Push** the branch to your fork on Github of  this project.
+5. **Submit** the pull request for the project owner to review the changes
+
+## Tests
+
+${data.test}
+
 ## Questions?
-
-- GitHub: [${data.github}](https://github.com/${data.github}/)
+- Project owner: ${data.name}
+- GitHub: [${data.github}](https://github.com/${data.github})
 - Email: ${data.email}
 `;
 

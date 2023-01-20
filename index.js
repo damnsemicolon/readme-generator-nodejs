@@ -133,7 +133,7 @@ If you would like to contribute to this project, you can follow the steps below:
 
 ## Tests
 
-${data.test}
+${data.tests}
 
 ## Questions?
 - Project owner: ${data.name}
